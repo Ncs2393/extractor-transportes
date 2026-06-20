@@ -9,10 +9,9 @@ st.set_page_config(page_title="Extractor de Servicios Cloud", page_icon="🚖", 
 st.title("🚖 Extractor de Servicios (Conectado a Colab)")
 st.markdown("Consolida tus capturas de pantalla usando el motor de tu Google Colab.")
 
-# Entrada de la URL generada por Ngrok en tu Colab
 url_colab = st.text_input(
     "Enlace público de Colab (Ngrok URL):", 
-    placeholder="https://xxxx-xx-xx.ngrok-free.app"
+    value="https://causal-dispatch-coat.ngrok-free.app"
 )
 
 # Selector de múltiples archivos
